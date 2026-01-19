@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0B1220" />
+  <title>Support — Plank Tracker</title>
+  <meta name="description" content="Plank Tracker support: contact, troubleshooting, and FAQ." />
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:rgba(255,255,255,.06);
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.72);
+      --muted2:rgba(255,255,255,.55);
+      --border:rgba(255,255,255,.10);
+      --accent:#10b981;
+      --accent2:#3b82f6;
+      --shadow:0 18px 60px rgba(0,0,0,.35);
+      --radius:18px;
+      --max:860px;
+      --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f7fb;
+        --card:rgba(0,0,0,.04);
+        --text:rgba(0,0,0,.88);
+        --muted:rgba(0,0,0,.62);
+        --muted2:rgba(0,0,0,.48);
+        --border:rgba(0,0,0,.08);
+        --shadow:0 18px 60px rgba(0,0,0,.12);
+      }
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--font);
+      background:radial-gradient(1200px 900px at 30% 20%, rgba(16,185,129,.20), transparent 55%),
+                 radial-gradient(1200px 900px at 70% 40%, rgba(59,130,246,.18), transparent 55%),
+                 var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:44px 20px 64px}
+    header{display:flex; gap:14px; align-items:center; justify-content:space-between; flex-wrap:wrap}
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{
+      width:40px; height:40px; border-radius:12px;
+      background:linear-gradient(135deg, var(--accent), var(--accent2));
+      border:1px solid var(--border);
+      box-shadow:var(--shadow);
+    }
+    h1{margin:0; font-size:34px; letter-spacing:-0.02em}
+    .sub{margin:6px 0 0; color:var(--muted); font-size:14px}
+    .btn{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:10px 14px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.06);
+      text-decoration:none;
+      font-weight:600;
+      color:var(--text);
+    }
+    main{
+      margin-top:18px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .card{
+      border:1px solid var(--border);
+      background:var(--card);
+      border-radius:16px;
+      padding:14px;
+      margin-top:12px;
+    }
+    h2{margin:0 0 8px; font-size:16px}
+    p{margin:0; color:var(--muted)}
+    ul{margin:10px 0 0; padding-left:18px; color:var(--muted)}
+    li{margin:6px 0}
+    code{
+      font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      font-size:12px;
+      padding:.15em .35em;
+      border-radius:8px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.05);
+      color:var(--text);
+    }
+    footer{
+      margin-top:18px;
+      padding-top:14px;
+      border-top:1px solid var(--border);
+      display:flex;
+      gap:12px;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      color:var(--muted2);
+      font-size:13px;
+    }
+    .links{display:flex; gap:14px; flex-wrap:wrap}
+    .links a{color:var(--muted); text-decoration:none}
+    .links a:hover{text-decoration:underline}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>Support</h1>
+          <div class="sub">Plank Tracker</div>
+        </div>
+      </div>
+      <nav style="display:flex; gap:10px; flex-wrap:wrap">
+        <a class="btn" href="index.html">Marketing</a>
+        <a class="btn" href="YOUR_APPSTORE_URL">App Store</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:aleksandrudenisevich@gmail.com">aleksandrudenisevich@gmail.com</a></p>
+        <p style="margin-top:8px; color:var(--muted2)">
+          Please include the details below so we can help faster.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>What to include in your message</h2>
+        <ul>
+          <li>App name: <strong>Plank Tracker</strong></li>
+          <li>App version (e.g. 1.0.0)</li>
+          <li>Device model (e.g. iPhone 15 Pro)</li>
+          <li>iOS version</li>
+          <li>What happened + steps to reproduce</li>
+          <li>Screenshots or a short screen recording (if possible)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Quick troubleshooting</h2>
+        <ul>
+          <li>Restart the app.</li>
+          <li>Restart your iPhone.</li>
+          <li>Make sure you’re on the latest app version from the App Store.</li>
+          <li>If stats look wrong, check if you used <strong>Reset All Data</strong> in Settings.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>FAQ</h2>
+        <ul>
+          <li><strong>Is an account required?</strong> No. The app works without sign-in.</li>
+          <li><strong>Where is my data stored?</strong> On your device (local storage).</li>
+          <li><strong>Can I disable sounds/haptics/countdown?</strong> Yes, in Settings.</li>
+          <li><strong>How is streak counted?</strong> Based on your daily completed sessions.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Legal</h2>
+        <p>
+          Privacy Policy: <a href="privacy.html">privacy.html</a><br />
+          Terms of Service: <a href="terms.html">terms.html</a>
+        </p>
+      </div>
+
+      <footer>
+        <div>© <span id="y"></span> Plank Tracker</div>
+        <div class="links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms</a>
+          <a href="index.html">Marketing</a>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
