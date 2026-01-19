@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0B1220" />
+  <title>Terms of Service — Plank Tracker</title>
+  <meta name="description" content="Terms of Service for Plank Tracker." />
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:rgba(255,255,255,.06);
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.72);
+      --muted2:rgba(255,255,255,.55);
+      --border:rgba(255,255,255,.10);
+      --accent:#10b981;
+      --accent2:#3b82f6;
+      --shadow:0 18px 60px rgba(0,0,0,.35);
+      --radius:18px;
+      --max:860px;
+      --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",
+              "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f7fb;
+        --card:rgba(0,0,0,.04);
+        --text:rgba(0,0,0,.88);
+        --muted:rgba(0,0,0,.62);
+        --muted2:rgba(0,0,0,.48);
+        --border:rgba(0,0,0,.08);
+        --shadow:0 18px 60px rgba(0,0,0,.12);
+      }
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--font);
+      background:
+        radial-gradient(1200px 900px at 30% 20%, rgba(16,185,129,.18), transparent 55%),
+        radial-gradient(1200px 900px at 70% 40%, rgba(59,130,246,.16), transparent 55%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{max-width:var(--max); margin:0 auto; padding:44px 20px 64px}
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:12px;
+    }
+    .brand{display:flex; align-items:center; gap:12px}
+    .logo{
+      width:40px;height:40px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+      border:1px solid var(--border);
+      box-shadow:var(--shadow);
+    }
+    h1{margin:0;font-size:34px;letter-spacing:-.02em}
+    .sub{margin:6px 0 0;color:var(--muted);font-size:14px}
+    .btn{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:10px 14px;border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.06);
+      text-decoration:none;
+      font-weight:600;color:var(--text);
+    }
+    main{
+      margin-top:18px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .card{
+      border:1px solid var(--border);
+      background:var(--card);
+      border-radius:16px;
+      padding:14px;
+      margin-top:12px;
+    }
+    h2{margin:0 0 8px;font-size:16px}
+    p{margin:0;color:var(--muted)}
+    ul{margin:8px 0 0;padding-left:18px;color:var(--muted)}
+    li{margin:6px 0}
+    footer{
+      margin-top:18px;
+      padding-top:14px;
+      border-top:1px solid var(--border);
+      display:flex;
+      gap:12px;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      color:var(--muted2);
+      font-size:13px;
+    }
+    .links{display:flex;gap:14px;flex-wrap:wrap}
+    .links a{color:var(--muted);text-decoration:none}
+    .links a:hover{text-decoration:underline}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <h1>Terms of Service</h1>
+          <div class="sub">Plank Tracker</div>
+        </div>
+      </div>
+      <nav>
+        <a class="btn" href="index.html">Marketing</a>
+        <a class="btn" href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card">
+        <p>
+          By using Plank Tracker, you agree to these Terms of Service.
+          If you do not agree with any part of the terms, please do not use the app.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Use of the App</h2>
+        <p>
+          Plank Tracker is provided for personal fitness tracking and motivation purposes only.
+          It is not a medical or professional fitness service.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Health Disclaimer</h2>
+        <p>
+          You are responsible for your own health and physical condition.
+          Always consult a qualified professional before starting any exercise program.
+          Stop using the app immediately if you experience pain, dizziness, or discomfort.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>No Warranty</h2>
+        <p>
+          The app is provided "as is" without warranties of any kind.
+          We do not guarantee that the app will be error-free, uninterrupted,
+          or that results will meet your expectations.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Limitation of Liability</h2>
+        <p>
+          In no event shall Plank Tracker or its developer be liable for any damages
+          arising from the use or inability to use the app, including physical injury,
+          loss of data, or loss of profits.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Data & Privacy</h2>
+        <p>
+          The app stores all data locally on your device.
+          Please refer to our <a href="privacy.html">Privacy Policy</a> for details.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Changes to the App</h2>
+        <p>
+          We may update or change the app at any time without prior notice,
+          including adding, modifying, or removing features.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Changes to These Terms</h2>
+        <p>
+          These Terms may be updated occasionally.
+          Continued use of the app after changes means you accept the new terms.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Contact</h2>
+        <p>
+          If you have any questions about these Terms of Service, contact us at:
+          <br />
+          <a href="mailto:YOUR_SUPPORT_EMAIL">YOUR_SUPPORT_EMAIL</a>
+        </p>
+      </div>
+
+      <footer>
+        <div>© <span id="y"></span> Plank Tracker</div>
+        <div class="links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">Support</a>
+          <a href="index.html">Marketing</a>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
